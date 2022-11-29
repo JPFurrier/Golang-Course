@@ -15,7 +15,7 @@ func main() {
 
 }
 
-func su m(xi ...int) int {
+func sum(xi ...int) int {
 	fmt.Printf("%T\n", xi)
 	total := 0
 	for _, v := range xi {

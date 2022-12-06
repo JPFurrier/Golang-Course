@@ -20,7 +20,7 @@ func main() {
 	fmt.Printf("%T\n", s)
 	fmt.Printf("%T\n", bs)
 
-	// people := person{}
+	// people := Person{}
 	var people []person
 
 	err := json.Unmarshal(bs, &people)

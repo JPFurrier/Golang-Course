@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-type person struct {
+type Person struct {
 	First string
 	Last  string
 	Age   int
@@ -13,19 +13,19 @@ type person struct {
 
 func main() {
 
-	p1 := person{
+	p1 := Person{
 		First: "James",
 		Last:  "Bond",
 		Age:   32,
 	}
 
-	p2 := person{
+	p2 := Person{
 		First: "Miss",
 		Last:  "Moneypenny",
 		Age:   26,
 	}
 
-	people := []person{p1, p2}
+	people := []Person{p1, p2}
 
 	fmt.Println(people)
 

@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 
+	//chan<- ------ send channel
+	//<-chan ------ receive channel
+
 	// one way to make channel run
 
 	//c := make(chan int)
